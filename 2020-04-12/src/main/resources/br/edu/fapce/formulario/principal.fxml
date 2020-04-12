@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="480.0" prefWidth="640.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.fapce.formulario.PrincipalController">
+   <children>
+      <Label text="Exercício 14">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label text="Tela Principal">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></Label>
+      <Button fx:id="bt_Cadastros" onAction="#irParaCadastros" prefHeight="25.0" prefWidth="100.0" text="Cadastros" />
+      <Button fx:id="bt_Listagem" mnemonicParsing="false" onAction="#irParaListagem" prefHeight="25.0" prefWidth="100.0" text="Listagem" />
+      <Button fx:id="bt_Finalizar" mnemonicParsing="false" onAction="#bt_FinalizarOnAction" prefHeight="25.0" prefWidth="100.0" text="Finalizar" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
